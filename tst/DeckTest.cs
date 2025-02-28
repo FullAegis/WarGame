@@ -10,4 +10,13 @@ public class DeckTest {
     _ = deck.Deal(count: 52);
     Assert.That(deck, Is.Empty);
   }
+  
+  [Test]
+  public void Deck_Deal_RemovesCardFromDeck() {
+    Deck deck = new Deck();
+    var dealtCards = deck.Deal(1);
+    Assert.That(dealtCards, Is.Not.Empty);
+    Assert.Equals(1, dealtCards.Count);
+    Assert.Equals(51, deck.Length);
+  }
 }
