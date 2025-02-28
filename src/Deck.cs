@@ -5,6 +5,7 @@ namespace WarGame;
 public class Deck {
   private Stack<Card> _cards = new();
   public int Length { get => _cards.Count; }
+  public bool Empty { get => Length == 0; }
   
   public Deck() {
     foreach (var suit in Enum.GetValues<Suit>()) {
