@@ -25,7 +25,7 @@ public class Deck {
     }
   }
 
-  public IEnumerable<Card> Deal(int count = 1) {
+  public Stack<Card> Deal(int count = 1) {
     AssertInRange(count);
     var deck = new Stack<Card>();
     while (count-- > 0) {
