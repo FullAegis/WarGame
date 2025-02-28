@@ -8,7 +8,7 @@ public class DeckTest {
   public void EmptyDeck() {
     var deck = new Deck();
     _ = deck.Deal(count: 52);
-    Assert.That(deck, Is.Empty);
+    Assert.That(deck.Empty, Is.True);
   }
   
   [Test]
