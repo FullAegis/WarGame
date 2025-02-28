@@ -1,0 +1,10 @@
+# Ignore everything
+*
+# Except
+!.gitignore
+!/src/*.cs
+!/tst/*.cs
+!*.csproj
+!*.sln
+!readme.md
+!LICENSE
