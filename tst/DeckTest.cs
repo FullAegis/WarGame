@@ -16,7 +16,7 @@ public class DeckTest {
     Deck deck = new Deck();
     var dealtCards = deck.Deal(1);
     Assert.That(dealtCards, Is.Not.Empty);
-    Assert.Equals(1, dealtCards.Count);
-    Assert.Equals(51, deck.Length);
+    Assert.That(dealtCards.Count, Is.EqualTo(1));
+    Assert.That(deck.Length, Is.EqualTo(51));
   }
 }
