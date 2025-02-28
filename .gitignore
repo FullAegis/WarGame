@@ -1,5 +1,7 @@
 # Ignore everything
 *
+# Especially the stuborn:
+/.idea/
 # Except
 !.gitignore
 !/src/*.cs
