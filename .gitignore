@@ -1,12 +1,14 @@
 # Ignore everything
 *
 # Especially the stuborn:
-/.idea/
-/.idea/.idea.WarGame/.idea/
+.idea/
+.idea/.idea.WarGame/.idea/*
+.idea/.idea.WarGame/.idea/encodings.xml
+.idea/.idea.WarGame/.idea/indexLayout.xml
 # Except
 !.gitignore
-!/src/*.cs
-!/tst/*.cs
+!src/*.cs
+!tst/*.cs
 !*.csproj
 !*.sln
 !readme.md
