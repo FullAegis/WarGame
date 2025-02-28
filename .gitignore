@@ -2,6 +2,7 @@
 *
 # Especially the stuborn:
 /.idea/
+/.idea/.idea.WarGame/.idea/
 # Except
 !.gitignore
 !/src/*.cs
