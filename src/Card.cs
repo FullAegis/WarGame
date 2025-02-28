@@ -18,10 +18,11 @@ public enum Rank {
   Seven = 7,
   Eight = 8,
   Nine = 9,
-  Jack = 10,
-  Queen = 11,
-  King = 12,
-  Ace = 13,
+  Ten = 10,
+  Jack = 11,
+  Queen = 12,
+  King = 13,
+  Ace = 14,
 };
 
 public class Card(Suit suit, Rank rank) {
